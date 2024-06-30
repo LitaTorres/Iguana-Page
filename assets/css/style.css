@@ -1,0 +1,105 @@
+body * {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000000;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    opacity: 1;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+.iguana-header {
+    width: 100%;
+}
+
+/*DESC-SECTION*/
+
+.desc-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #000000;
+}
+
+.imagen-iguana {
+    padding: 50px 170px 70px 50px;
+    width: 28%;
+    text-align: center;
+}
+
+.texto-descripcion {
+    padding: 70px 30px 70px 170px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* CARACTERISTICAS */
+
+.icons-section {
+    background-color: #1E1A13;
+    text-align: center;
+}
+
+.icons-section .iconos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.icons-section h2 {
+    font-size: 47px;
+    padding-bottom: 70px;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+.icons-section p {
+    font-size: 30px;
+    padding-bottom: 120px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+/*TRIO DE IMAGENES */
+.trio {
+    background-color: #000000;
+    width: 100%;
+}
+
+.trio .trio-iguanas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    height: 220px;
+    padding: 80px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #1E1A13;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer a {
+    text-decoration: none;
+}
