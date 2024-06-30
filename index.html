@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Iguana Page</title>
     <meta name="author" content="Lita Torres">
-    <meta name="description" content="Comparte tus conocimientos tomando café">
-    <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Conociendo un poco sobre las iguanas.">
+    <meta name="keywords" content="iguanas, caracteristicas, descripcion">
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:wght@400;700&family=Pacifico&family=Playfair:wght@300&family=Raleway:wght@300;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:wght@400;700&family=Pacifico&family=Playfair:wght@300&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <!--Booststrap 5.3.2 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Estilos y favicon -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <title> Iguana Page</title>
 </head>
 
 <body>
@@ -28,51 +30,67 @@
     <!-- DESCRIPCION desc section-->
 
     <section class="desc-section">
-        <div class="texto-descripcion">
-            <p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2
-                metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos
-                verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda. <br> <br> La
-                alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son
-                herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.
-            </p>
+        <div class="row container">
+            <div class="texto-descripcion col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6 py-5">
+                <p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2
+                    metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos
+                    verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda. <br> <br> La
+                    alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son
+                    herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 iguana py-5">
+                <img src="assets/img/iguana-1.jpg" class="imagen-iguana" alt="iguana-mirando">
+            </div>
         </div>
-        <img src="assets/img/iguana-1.jpg" class="imagen-iguana" alt="iguana-mirando">
     </section>
 
     <!-- CARACTERISTICAS icons section-->
     <section class="icons-section">
-        <h2>CARACTERISTICAS</h2>
-        <div class="iconos">
-            <article>
-                <i class="far fa-eye fa-4x" class="icono-trio" alt="icono ojo "></i>
-                <p>Tercer ojo</p>
-            </article>
+        <h2 class="fs-1 pt-5">CARACTERISTICAS</h2>
+        <div class="container">
+            <div class="row iconos">
+                <article class=" col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 py-5">
+                    <i class="far fa-eye fa-4x" class="icono-trio" alt="icono ojo "></i>
+                    <p>Tercer ojo</p>
+                </article>
 
-            <article>
-                <i class="fa-regular fa-hand-peace fa-4x" class="icono-trio" alt="icono mano "></i>
-                <p>Pacíficas</p>
-            </article>
+                <article  class=" col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 py-5">
+                    <i class="fa-regular fa-hand-peace fa-4x" class="icono-trio" alt="icono mano "></i>
+                    <p>Pacíficas</p>
+                </article>
 
-            <article>
-                <i class="fas fa-paint-brush fa-4x" class="icono-trio" alt="icono pincel"></i>
-                <p>Cambian de Color</p>
-            </article>
+                <article  class=" col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 py-5">
+                    <i class="fas fa-paint-brush fa-4x" class="icono-trio" alt="icono pincel"></i>
+                    <p>Cambian de Color</p>
+                </article>
+            </div>
+        </div>
     </section>
 
     <!--TRIO DE IMAGENES-->
     <section class="trio">
-        <article class="trio-iguanas">
-            <img src="assets/img/iguana-2.jpg" width="366px" alt="imagen-iguana">
-            <img src="assets/img/iguana-3.jpg" width="366px" alt="imagen-iguana">
-            <img src="assets/img/iguana-4.jpg" width="366px" alt="imagen-iguana">
-        </article>
+        <div class="container">
+            <div class="row trio-iguanas">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 py-4">
+                    <img src="assets/img/iguana-2.jpg" height="170px" class="imagen-iguana2" alt="imagen-iguana">
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4  py-4">
+                    <img src="assets/img/iguana-3.jpg" height="170px" class="imagen-iguana2" alt="imagen-iguana">
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4  py-4">
+                    <img src="assets/img/iguana-4.jpg" height="170px" class="imagen-iguana2" alt="imagen-iguana">
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- FOOTER -->
-
     <footer class="footer">
-        <a href="https://www.anipedia.net/iguanas/iguana-verde/"> Visita https://www.anipedia.net/iguanas/iguana-verde/
-            para conocer más. </a>
+        <div class="container">
+            <a href="https://www.anipedia.net/iguanas/iguana-verde/" class="py-3"> Visita https://www.anipedia.net/iguanas/iguana-verde/
+                para conocer más. </a>
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/c194e7b6b0.js" crossorigin="anonymous"></script>

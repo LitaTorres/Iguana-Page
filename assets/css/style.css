@@ -29,22 +29,40 @@ header h1 {
 .desc-section {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
     background-color: #000000;
 }
 
 .imagen-iguana {
-    padding: 50px 170px 70px 50px;
-    width: 28%;
+    width: 60%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
 .texto-descripcion {
-    padding: 70px 30px 70px 170px;
     font-size: 16px;
     font-weight: lighter;
+}
+
+.iguana {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width: 1400px) {
+    .iguana {
+        width: 50%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .iguana {
+        width: 130%;
+      }
 }
 
 /* CARACTERISTICAS */
@@ -54,24 +72,18 @@ header h1 {
     text-align: center;
 }
 
-.icons-section .iconos {
-    display: flex;
+.iconos {
+    display: flex; 
     justify-content: center;
-    flex-direction: row;
-    gap: 170px;
+    align-items: center;
 }
 
 .icons-section h2 {
     font-size: 47px;
-    padding-bottom: 70px;
-    font-weight: 500;
-    padding-top: 70px;
 }
 
 .icons-section p {
-    font-size: 30px;
-    padding-bottom: 120px;
-    padding-top: 30px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -81,20 +93,30 @@ header h1 {
     width: 100%;
 }
 
-.trio .trio-iguanas {
+.trio-iguanas {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 25px;
-    height: 220px;
-    padding: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .imagen-iguana2 {
+        width: 80%;
+      }
+}
+
+@media screen and (max-width: 576px) {
+    .imagen-iguana2  {
+        width: 50%;
+      }
 }
 
 /*FOOTER*/
 
 .footer {
     background-color: #1E1A13;
-    font-size: 20px;
+    font-size: 15px;
     padding: 40px;
     text-align: center;
     font-weight: lighter;
